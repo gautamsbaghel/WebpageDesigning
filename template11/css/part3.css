@@ -1,0 +1,32 @@
+.part_3 {
+    width: 100%;
+    height: 250px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/background.jpeg);
+    background-size: 100% 250px;
+    position: relative;
+    z-index: -1;
+}
+
+#part_3_content {
+    display: block;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+}
+
+#part_3_head_1 {
+    margin-top: 30%;
+    font-size: 40px;
+    color: white;
+}
+
+#part_3_head_2 {
+    font-size: 15px;
+    margin-left: 30px;
+    color: white;
+}
+
+.part_3_link {
+    text-decoration: none;
+    color: white;
+}

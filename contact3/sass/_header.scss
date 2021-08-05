@@ -1,0 +1,95 @@
+header{
+    background-color: $primary-color ;
+
+    .header_top{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgba(0,0,0,0.1);
+        color: white;
+        padding: 0 2em;
+        ul{
+            gap:2em;
+            i{
+                margin-right: 1em ;
+            }
+        }
+        .search_bar{
+            display: flex;
+            width: 40%;
+            background-color: rgba(0,0,0,0.1);
+            padding: 1em;
+            input{
+                flex: 1;
+                border: none;
+                color: white;
+                background: none;
+                font-family: $font,'Font Awesome 5 Free';
+                &::placeholder{
+                    color: rgba(255,255,255,0.5);
+                }
+            }
+        }
+    }
+    .header_bottom{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2em;
+
+        .logo{
+            position: relative;
+            display: flex;
+            align-items: center;
+            img{
+                width:100px;
+            }
+            .name{
+                display: block;
+                padding: 1em;
+                color: $accent;
+                text-shadow: 0px 0px 1px #333;
+                .title{
+                    font-stretch: narrower;
+                }
+                .description{
+                    font-stretch: semi-condensed;
+                }
+            }
+            .attribution{
+                display: none;
+                position: absolute;
+                width:200px;
+                font-size: .9em;
+                padding: 1em;
+                top: 50% ;
+                left:calc(100% + 1em );
+                transform: translateY(-50%);
+                background-color: $accent;
+                border-radius: 5px;
+                box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+                color: rgba(255,255,255,0.5) ;
+                
+                i{
+                    position: absolute;
+                    top:1em;
+                    right:1em;
+                    color: white;
+                    cursor: pointer;
+                }
+
+                a{
+                    display: block;
+                    color: white;
+                    margin: .5em 0;
+                }
+            }
+        }
+        ul{
+            gap:1em;
+            padding: 1em;
+            background-color : $accent;
+            color: white;
+        }
+    }
+}

@@ -1,0 +1,68 @@
+.nav {
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    z-index: 1;
+}
+
+.nav_div_1 {
+    display: inline-block;
+    margin-left: -20px;
+}
+
+.nav_div_2 {
+    margin-top: 1.8em;
+    display: inline-block;
+    margin-left: 100px;
+    font-size: large;
+    padding-right: 30px;
+}
+
+.nav_div_1_ul {
+    list-style: none;
+}
+
+.nav_div_1_ul_item {
+    display: inline;
+    margin-top: 0;
+}
+
+.nav_div_1_ul_item_text {
+    display: inline;
+    font-size: 2.5em;
+}
+
+.nav_div_dropdown {
+    display: inline-block;
+    margin-left: 0.8em;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+#cart {
+    font-size: 1.8em;
+    color: rgb(189, 189, 189);
+    margin-left: 20px;
+}
+
+#search {
+    font-size: 1.8em;
+    color: rgb(139, 146, 153);
+}
+
+#nav_div_link {
+    color: black;
+    text-decoration: none;
+}
+
+.right_icon_1 {
+    margin-left: 120px;
+}
+
+.nav_div_icon {
+    display: inline-block;
+    margin-left: 0.8em;
+    font-size: large;
+    font-weight: 500;
+}

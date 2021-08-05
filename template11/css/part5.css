@@ -1,0 +1,117 @@
+.part_5 {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.part_5_div_1 {
+    display: inline-block;
+    width: 45%;
+}
+
+.part_5_div_2 {
+    display: inline-block;
+    width: 45%;
+    background: whitesmoke;
+}
+
+.part_5_div_1_contact_info {
+    display: inline-flex;
+    width: 160px;
+    height: 180px;
+    justify-content: space-around;
+    border: 1px solid grey;
+    border-radius: 10%;
+    margin: 0px 5px 35px 55px;
+    background: whitesmoke;
+    /* width: 40%;
+    height: 200px; */
+}
+
+.part_5_div_1_contact_info_ul {
+    list-style: none;
+    text-align: center;
+}
+
+.part_5_div_1_contact_info_ul_item {
+    color: grey;
+    margin-right: 11%;
+    margin-left: -40px;
+}
+
+.part_5_div_1_contact_info_ul_item h3 {
+    color: black;
+    font-weight: bold;
+}
+
+.contact_info_icon i {
+    background: blue;
+    color: white;
+    font-size: 30px;
+    border-radius: 50%;
+    padding: 10%;
+}
+
+.part_5_div_heading_1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.part_5_div_para_1 {
+    font-size: 15px;
+    text-align: center;
+}
+
+
+/* form */
+
+.form-input {
+    margin-left: 45px;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* margin-top: 20px; */
+    font-size: 15px;
+    width: 100%;
+}
+
+.input-name {
+    display: block;
+    width: 80%;
+}
+
+.input-email {
+    display: block;
+    width: 80%;
+}
+
+.input-number {
+    display: block;
+    width: 80%;
+}
+
+.input-message {
+    display: block;
+    width: 80%;
+}
+
+
+/* button */
+
+.form-btn {
+    margin-top: 20px;
+    padding: 10px;
+    border-style: none;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    width: 80%;
+    margin-left: 45px;
+}
+
+.form-btn:hover {
+    background-color: green;
+    color: whitesmoke;
+}

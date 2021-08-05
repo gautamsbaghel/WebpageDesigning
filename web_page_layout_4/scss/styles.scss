@@ -1,0 +1,46 @@
+@import "variables";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $font;
+}
+
+body,html{
+    font-size: 15px;
+}
+
+section{
+    height:100vh;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+    background-color: $secondary-color;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: $primary-color;
+}
+input,button{
+    border: none;
+    outline: none
+}
+
+@import "intro";
+@import "about-us-one";
+@import "about-us-two";
+@import "our-servcies";
+@import "testimonials";
+@import "latest-news";

@@ -1,0 +1,67 @@
+main{
+    padding: 2em;
+    background-color: $secondary-color;
+
+    nav{
+        padding-bottom: 1em;
+        font-size: .9em;
+    }
+
+    .contact{
+        padding: 2em;
+        display: grid;
+        grid-template-columns: 1.5fr 1fr;
+        background-color: white;
+
+        form{
+            display: inline-flex;
+            flex-direction: column;
+            justify-content: space-between;
+            .input-group{
+                display: flex;
+                justify-content: space-between;
+
+                input,textarea{
+                    width: 70%;
+                    padding: 1em;
+                    border-radius: 5px;
+                    background-color: rgba(0, 0, 0, 0.1);
+                }
+            }
+            button{
+                width: 100px;
+                padding: 1em;
+                align-self: flex-end;
+                border-radius: 5px;
+                background-color: $accent;
+                color: white;
+            }
+        }
+
+        .address{
+            padding: 0 2em;
+            
+            h1{
+                color: $accent;
+                font-size: 2em;
+            }
+
+            p{
+                word-spacing: 10px;
+                margin: 1em 0;
+                &:nth-of-type(1){
+                    font-weight: bold;
+                    line-height: 1.75em;
+                }
+            }
+        }
+    }
+
+    .map{
+        background-color: white;
+        iframe{
+            height: 100%;
+            width: 100%;
+        }
+    }
+}

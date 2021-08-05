@@ -1,0 +1,101 @@
+#intro{
+    display: flex;
+    flex-direction: column;
+
+    header{
+        .header-top{
+            display: flex;
+            justify-content: space-between;
+            background-color: $secondary-color;
+            color: $secondary-text-color;
+            .fas{
+                margin-right: 1em;
+            }
+            .phone{
+                padding: 1em 1em 1em 4em;
+                background-color: $primary-color;
+            }
+            .mail_social{
+                display: flex;
+                gap:1em;
+                padding: 1em 4em 1em 1em;
+                .social{
+                    padding-left: 1em;
+                    font-size: .9em;
+                    border-left: 2px solid white;
+                    gap:1em;
+                }
+            }
+
+        }
+        .header-bottom{
+            padding: 1em 4em ;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .logo{
+                display: flex;
+                align-items: center;
+                img{
+                    width: 50px;
+                    margin-right: .5em;
+                }
+                .title{
+                    font-size: 1.5em;
+                    font-weight: bolder;
+                    font-stretch: extra-condensed;
+                    text-transform: uppercase;
+                    &::after{
+                        content: "For a Healthy Smile";
+                        display: block;
+                        font-weight: lighter;
+                        font-size: .5em;
+                        text-transform: initial;
+                        margin-top: -7px;
+                        color: rgba(0,0,0,0.7);
+                    }
+                }
+            }
+            .nav{
+                gap:1em;
+                .fas{
+                    margin-left: .5em;
+                }
+            }
+        }
+    }
+    main{
+        flex:1;
+        background-image: url(../assets/quang-tri-nguyen-vxGl2utBFRo-unsplash.jpg) ;
+        background-size: cover;
+        background-color: #dfc5c5;
+        background-blend-mode:multiply;
+        position: relative;
+        .content{
+            position: absolute;
+            top:50%;
+            transform: translateY(-50%);
+            left:4em;
+            color: white;
+            text-shadow: 0px 0px 1px black;
+            .header{
+                font-size: 3.75em;
+                line-height: 1.1em;
+            }
+        }
+        .arrows{
+            position: absolute;
+            top:50%;
+            transform: translateY(-50%);
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            padding: 0 .5em;
+            button{
+                padding: .75em 1em;
+                background-color: $accent-color;
+                color: $accent-text-color;
+            }
+        }
+    }
+}

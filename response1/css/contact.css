@@ -1,0 +1,46 @@
+.contact {
+    margin-top: 40px;
+    background: whitesmoke;
+    height: 700px;
+}
+
+.text-center {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 34px;
+}
+
+.form {
+    margin: 26px auto;
+    max-width: 62%;
+}
+
+.form_input {
+    width: 100%;
+    margin: 14px 0px;
+    font-size: 18px;
+    padding: 5px 3px;
+    border: 2px solid gray;
+    border-radius: 6px;
+}
+
+.btn-dark {
+    color: black;
+    border: 2px solid gray;
+}
+
+.btn-dark:hover {
+    background: green;
+    color: white;
+}
+
+
+/* footer */
+
+.text-footer {
+    text-align: center;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}

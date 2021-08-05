@@ -1,0 +1,51 @@
+@media only screen and (max-width: 1140px) {
+    .navList {
+        flex-direction: column;
+    }
+    .navbar {
+        flex-direction: column;
+        transition: all 0.7s ease-in;
+        height: 450px;
+    }
+    .rightNav {
+        text-align: center;
+    }
+    .box-main {
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+    #search {
+        width: 90%;
+    }
+    .burger {
+        display: block;
+    }
+    .btn-sm {
+        margin-top: 8px;
+    }
+    .h-nav-resp {
+        height: 60px;
+    }
+    .v-class-resp {
+        opacity: 0;
+    }
+    .section {
+        flex-direction: column-reverse;
+    }
+    .thumbnail img {
+        margin-bottom: 15px;
+    }
+    .text-big {
+        text-align: center;
+    }
+    .text-small {
+        text-align: center;
+    }
+    .button {
+        text-align: center;
+    }
+    .para {
+        padding: 0px;
+        text-align: right;
+    }
+}

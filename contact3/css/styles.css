@@ -1,0 +1,263 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body, html {
+  font-size: 14px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+input, button, textarea {
+  outline: none;
+  border: none;
+  resize: none;
+  background: none;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: #cae8d5;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #6c567b;
+}
+
+header {
+  background-color: #d32f2f;
+}
+
+header .header_top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.1);
+  color: white;
+  padding: 0 2em;
+}
+
+header .header_top ul {
+  gap: 2em;
+}
+
+header .header_top ul i {
+  margin-right: 1em;
+}
+
+header .header_top .search_bar {
+  display: flex;
+  width: 40%;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 1em;
+}
+
+header .header_top .search_bar input {
+  flex: 1;
+  border: none;
+  color: white;
+  background: none;
+  font-family: "Montserrat", sans-serif, "Font Awesome 5 Free";
+}
+
+header .header_top .search_bar input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+header .header_bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2em;
+}
+
+header .header_bottom .logo {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+header .header_bottom .logo img {
+  width: 100px;
+}
+
+header .header_bottom .logo .name {
+  display: block;
+  padding: 1em;
+  color: #6c567b;
+  text-shadow: 0px 0px 1px #333;
+}
+
+header .header_bottom .logo .name .title {
+  font-stretch: narrower;
+}
+
+header .header_bottom .logo .name .description {
+  font-stretch: semi-condensed;
+}
+
+header .header_bottom .logo .attribution {
+  display: none;
+  position: absolute;
+  width: 200px;
+  font-size: .9em;
+  padding: 1em;
+  top: 50%;
+  left: calc(100% + 1em);
+  transform: translateY(-50%);
+  background-color: #6c567b;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  color: rgba(255, 255, 255, 0.5);
+}
+
+header .header_bottom .logo .attribution i {
+  position: absolute;
+  top: 1em;
+  right: 1em;
+  color: white;
+  cursor: pointer;
+}
+
+header .header_bottom .logo .attribution a {
+  display: block;
+  color: white;
+  margin: .5em 0;
+}
+
+header .header_bottom ul {
+  gap: 1em;
+  padding: 1em;
+  background-color: #6c567b;
+  color: white;
+}
+
+main {
+  padding: 2em;
+  background-color: #cae8d5;
+}
+
+main nav {
+  padding-bottom: 1em;
+  font-size: .9em;
+}
+
+main .contact {
+  padding: 2em;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  background-color: white;
+}
+
+main .contact form {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+main .contact form .input-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+main .contact form .input-group input, main .contact form .input-group textarea {
+  width: 70%;
+  padding: 1em;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+main .contact form button {
+  width: 100px;
+  padding: 1em;
+  align-self: flex-end;
+  border-radius: 5px;
+  background-color: #6c567b;
+  color: white;
+}
+
+main .contact .address {
+  padding: 0 2em;
+}
+
+main .contact .address h1 {
+  color: #6c567b;
+  font-size: 2em;
+}
+
+main .contact .address p {
+  word-spacing: 10px;
+  margin: 1em 0;
+}
+
+main .contact .address p:nth-of-type(1) {
+  font-weight: bold;
+  line-height: 1.75em;
+}
+
+main .map {
+  background-color: white;
+}
+
+main .map iframe {
+  height: 100%;
+  width: 100%;
+}
+
+footer {
+  padding: 2em 0;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #d32f2f;
+  color: white;
+}
+
+footer ul {
+  flex-direction: column;
+  gap: 1em;
+}
+
+footer ul .title {
+  font-weight: bold;
+}
+
+footer .newsletter form span {
+  display: block;
+  margin: 1em 0;
+  line-height: 2em;
+}
+
+footer .newsletter form .input-group {
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+footer .newsletter form .input-group input {
+  color: white;
+  padding: 1em;
+}
+
+footer .newsletter form .input-group input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+footer .newsletter form .input-group button {
+  padding: 1em;
+  background-color: #6c567b;
+  color: white;
+}
+
+footer .social i {
+  margin-right: 1em;
+}
